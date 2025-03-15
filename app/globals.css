@@ -2,6 +2,12 @@
 
 @plugin "tailwindcss-animate";
 
+
+.bgone{
+  @apply  bg-[#fff8f6] text-black dark:text-white dark:bg-slate-950
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
