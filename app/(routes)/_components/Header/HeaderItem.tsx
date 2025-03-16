@@ -1,4 +1,4 @@
-import { HeaderDataProps } from "@/contants";
+import { HeaderDataProps } from "@/constants";
 import { Roboto_Mono } from "next/font/google";
 import Link from "next/link";
 import React from "react";

@@ -5,7 +5,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { MenuIcon } from "lucide-react";
-import { headerData } from "@/contants";
+import { headerData } from "@/constants";
 import HeaderItem from "./HeaderItem";
 
 const MobileMenu = () => {
@@ -14,7 +14,7 @@ const MobileMenu = () => {
       <SheetTrigger>
         <MenuIcon className="lg:hidden flex" />
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className="bgone">
       <div className="flex flex-col space-y-6 mt-8 items-center">
           {headerData.map((nav, index) => (
             <HeaderItem key={index} href={nav.href} label={nav.label} />

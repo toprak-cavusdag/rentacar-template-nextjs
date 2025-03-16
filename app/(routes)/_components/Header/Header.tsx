@@ -1,4 +1,4 @@
-import { headerData } from "@/contants";
+import { headerData } from "@/constants";
 import React from "react";
 import HeaderItem from "./HeaderItem";
 import { Button } from "@/components/ui/button";
